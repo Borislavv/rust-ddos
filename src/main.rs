@@ -30,7 +30,8 @@ async fn main() {
                 ddos::DDOS::new(
                     "https://seo-php-swoole.lux.kube.xbet.lan/api/v1/pagedata?group_id=285&
                     url=php-swoole-test-domain.com/fr&geo=by&language=fr&project[id]=285&domain=
-                    php-swoole-test-domain.com&timezone=3&stream=live&section=sport&sport[id]=1".to_string(), 100
+                    php-swoole-test-domain.com&timezone=3&stream=live&section=sport&sport[id]=1".to_string(), 
+                    100
                 )
             );
         

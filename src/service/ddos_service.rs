@@ -93,7 +93,7 @@ impl DDOSService {
         println!("Failed reqs: {}", failed);
 
         let duration: usize = ((Utc::now().timestamp_millis() - self.start.timestamp_millis()) / 1000) as usize;
-        println!("Duration: {}", duration);
+        println!("Duration: {}s.", duration);
 
         let mut rps: usize = 0;
         if total > 0 {
